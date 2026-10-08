@@ -1,0 +1,11 @@
+Dialog	HCentering	VCentering	Width	Height	Attributes	Title	Control_First	Control_Default	Control_Cancel
+s72	i2	i2	i2	i2	i4	L128	s50	S50	S50
+Dialog	Dialog
+Welcome	50	50	370	270	3	LabelPOS Setup	Install	Install	Cancel
+Maintenance	50	50	370	270	3	LabelPOS Setup	Repair	Repair	Cancel
+Progress	50	50	370	270	1	LabelPOS Setup	Cancel	Cancel	Cancel
+CancelConfirm	50	50	370	270	3	LabelPOS Setup	No	No	No
+Finished	50	50	370	270	3	LabelPOS Setup	Done	Done	Done
+FatalError	50	50	370	270	3	LabelPOS Setup	Done	Done	Done
+UserExit	50	50	370	270	3	LabelPOS Setup	Done	Done	Done
+ErrorDlg	50	50	370	270	65539	LabelPOS Setup	Ok	Ok	Ok
