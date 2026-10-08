@@ -3,7 +3,7 @@ s72	s50	s20	i2	i2	i2	i2	I4	S50	L255	S50	L50
 Control	Dialog_	Control
 Welcome	Heading	Text	20	18	330	30	3		LabelPOS Studio Setup		
 Welcome	Body	Text	20	62	330	126	3		Install the offline label designer for the current Windows user. No internet connection is required. Requires Windows 10/11 (64-bit), Microsoft Edge and Windows PowerShell.		
-Welcome	Path	Text	20	196	330	28	3		Install location: [INSTALLFOLDER]		
+Welcome	Path	Text	20	196	330	28	3		Version 1.0.2 - Install location: [INSTALLFOLDER]		
 Welcome	Line	Line	0	234	370	1	3				
 Welcome	Cancel	PushButton	284	243	66	18	3		Cancel		
 Welcome	Install	PushButton	210	243	66	18	3		Install	Cancel	
@@ -28,7 +28,7 @@ Finished	Body	Text	20	65	330	135	3		The operation completed successfully. Launch
 Finished	Line	Line	0	234	370	1	3				
 Finished	Done	PushButton	284	243	66	18	3		Close		
 FatalError	Heading	Text	20	18	330	30	3		Unable to complete setup		
-FatalError	Body	Text	20	65	330	135	3		Setup encountered an error. Check installation permissions and PC security settings, then try again.		
+FatalError	Body	Text	20	65	330	135	3		Setup could not complete. Diagnostic log: [MsiLogFileLocation]. Please send this log to LabelPOS support.		
 FatalError	Line	Line	0	234	370	1	3				
 FatalError	Done	PushButton	284	243	66	18	3		Close		
 UserExit	Heading	Text	20	18	330	30	3		Setup cancelled		
