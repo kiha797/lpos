@@ -11,3 +11,7 @@ Linux에서 wixl·msitools를 설치한 뒤 이 폴더에서 `python3 build-msi.
 ## 1.0.2 수정
 
 MSI File/Directory/Shortcut의 긴 이름에 8.3 별칭을 함께 지정합니다. 빌드 후 MSI 내부 테이블을 다시 검사합니다. MsiLogging으로 상세 로그를 자동 생성하고 오류 화면에 로그 위치를 표시합니다.
+
+## 1.0.3 수정
+
+사용자 설치 로그의 오류 2809를 수정합니다. 모든 대화상자의 버튼 탭 순서를 완전한 순환으로 연결하고 빌드된 MSI에서 이를 검사합니다. `python3 verify-msi.py 파일.msi`로 개별 검사할 수 있습니다. Windows 실기기 설치 성공은 아직 확인하지 못했습니다.

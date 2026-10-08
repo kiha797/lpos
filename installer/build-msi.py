@@ -49,4 +49,5 @@ for table,col in [('File','FileName'),('Directory','DefaultDir'),('Shortcut','Na
  for r in rows(table):
   if table=='Directory' and (r['Directory']=='TARGETDIR' or r[col]=='.'):continue
   if not short_ok(r[col].split('|')[0]):raise ValueError('Invalid 8.3 filename: '+r[col])
+subprocess.run([os.sys.executable,str(root/'verify-msi.py'),str(output)],check=True)
 print(output)
